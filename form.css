@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url('images/jurassic-coast-1089035_1920.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.form-top {
+    margin-top: 30px;
+}
+
+.panel {
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12), 0 1px 6px 0 rgba(0, 0, 0, .12);
+    border-radius: 6px;
+    border: 0;
+}
+
+@-moz-document url-prefix() {
+    .form-control {
+        height: auto;
+    }
+}
+
+.panel-primary {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    font-size: 20px;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.btn-warning {
+    background-color: transparent;
+    border-color: #bdc3c7;
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #bbb9b9;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center
+}
+
+
+/* Change the color of links on hover */
+
+.navbar a:hover {
+    background-color: rgb(83, 83, 83);
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Sidebar links */
