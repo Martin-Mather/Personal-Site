@@ -1,5 +1,5 @@
 html {
-    background: url("images/tree.png") no-repeat center center fixed;
+    background: url("images/wall.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,6 +8,7 @@ html {
 
 body {
     font-family: 'Droid Serif', serif;
+    color: white;
 }
 
 h1 {
@@ -18,6 +19,10 @@ h1 {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+}
+
+span {
+    margin: 0 15px;
 }
 
 .content-slider {
@@ -58,7 +63,7 @@ h1 {
 }
 
 .slider .quote {
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
 }
 
@@ -354,6 +359,19 @@ h1 {
     background-color: #555555;
     color: white;
 }
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
 
 .navbar a {
     float: left;

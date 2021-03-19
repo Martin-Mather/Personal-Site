@@ -4,7 +4,7 @@ body {
 
 canvas {
     position: relative;
-    float: right;
+    margin-left: 550px;
     padding: 10;
 }
 
@@ -142,7 +142,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: .8vw;
-    color: rgba(207, 187, 187, 0.4);
+    color: rgba(255, 255, 255, 0.801);
     text-transform: uppercase;
     letter-spacing: 1em;
     text-align: center;
@@ -237,4 +237,44 @@ div.content {
         text-align: center;
         float: none;
     }
+}
+
+.navbar {
+    background-color: transparent;
+    ;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #8b8b8b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
 }
