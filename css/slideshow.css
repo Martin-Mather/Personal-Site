@@ -30,7 +30,7 @@ p.larger {
 
 .container {
     display: flex;
-    justify-content: relative;
+    justify-content: center;
     position: absolute;
     overflow: hidden;
     width: 100vw;
