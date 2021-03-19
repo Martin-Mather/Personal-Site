@@ -1,6 +1,6 @@
 var width = window.innerWidth;
 var height = window.innerHeight;
-var numberOfBlinds = window.innerWidth/100;
+var numberOfBlinds = window.innerWidth / 50;
 var margin = 2;
 var color = '#000';
 var gapHeight = 100;
